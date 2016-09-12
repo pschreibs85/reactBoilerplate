@@ -1,7 +1,7 @@
 {
-  "name": "complete-intro-to-react",
+  "name": "reactBoilerplate",
   "version": "1.0.0",
-  "description": "A two day workshop on a complete intro to React",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -11,7 +11,6 @@
     "lint": "eslint --ignore-path .gitignore --cache ./",
     "cover": "nyc --reporter=lcov --reporter=text --reporter=html --require babel-register --extension .jsx npm test"
   },
-  "author": "Brian Holt <btholt@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "0.9.1",
@@ -51,19 +50,5 @@
   },
   "directories": {
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/btholt/complete-intro-to-react.git"
-  },
-  "keywords": [
-    "react",
-    "workshop",
-    "intro",
-    "redux"
-  ],
-  "bugs": {
-    "url": "https://github.com/btholt/complete-intro-to-react/issues"
-  },
-  "homepage": "https://github.com/btholt/complete-intro-to-react#readme"
+  }
 }
